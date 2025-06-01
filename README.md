@@ -19,6 +19,35 @@ This is a Python-based command-line application for managing a movie database wi
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/movie_app.git
-cd movie_app
+git clone https://github.com/yourusername/Movie_advanced.git
+cd Movie_advanced
+```
 
+### 2. Set up your environment
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. Configure the API key
+
+Create a .env file in the root directory with your OMDb API key:
+```
+OMDB_KEY=your_api_key_here
+```
+
+You can get a free key from https://www.omdbapi.com/apikey.aspx.
+
+### 4. Run the app
+```
+python run.py
+```
+## 📋 Requirements
+	•	Python 3.7+
+	•	Internet connection (for OMDb API)
+	•	OMDb API key
+
+## ✅ License
+
+This project is open-source and free to use for educational and personal purposes.
