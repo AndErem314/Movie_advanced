@@ -1,5 +1,5 @@
 import random
-import movie_storage_sql as storage
+from data import movie_storage_sql as storage
 import data_fetcher
 
 
